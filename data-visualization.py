@@ -53,4 +53,6 @@ plt.figure(figsize=(8,6))
 sns.scatterplot(data=df, x = 'sepal length (cm)', y='petal length (cm)', 
 hue='species', palette='Set1')
 plt.title('Sepal vs Petal length')
+
+# To print all visualisation 
 plt.show()
